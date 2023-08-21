@@ -1,0 +1,29 @@
+body {
+  background-image: url("https://source.unsplash.com/random");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+form {
+  margin: 0 auto;
+  width: 50%;
+}
+
+input[type="file"] {
+  display: block;
+  margin: 20px 0;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
